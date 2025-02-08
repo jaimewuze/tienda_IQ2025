@@ -1,0 +1,13 @@
+#tituloPrincipal {
+    text-align: center;
+    color: white;
+    background-color: purple;
+}
+
+.parrafoVerde {
+    color: green;
+}
+
+.parrafoRojo {
+    color: red;
+}
