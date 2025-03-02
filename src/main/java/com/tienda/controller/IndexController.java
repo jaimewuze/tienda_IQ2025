@@ -5,10 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- *
- * @author jaime
- */
 @Controller
 public class IndexController {
 
@@ -21,7 +17,6 @@ public class IndexController {
     
      @RequestMapping("/informacion")
     public String contacto(Model model) {
-        model.addAttribute("attribute", "value");
         return "contacto";
     }
 }
