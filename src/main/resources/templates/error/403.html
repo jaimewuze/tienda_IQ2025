@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://wwww.thymeleaf.org">
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>Error 403 - Acceso Prohibido</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <header th:replace="layout/plantilla :: header"></header>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="alert alert-danger" role="alert">
+                        <h2>¡Acceso Denegado!</h2>
+                        <p>No tienes permiso para acceder a esta página. Si necesitas acceso, por favor contacta al administrador.</p>
+                        <a class="btn btn-primary" href="/" role="button">Volver al Inicio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
